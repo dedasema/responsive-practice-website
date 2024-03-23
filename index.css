@@ -25,6 +25,11 @@ p{
     font-size: 1.25em;
 }
 
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+
 button{
     font-size: 1em;
     font-weight: bold;
@@ -43,6 +48,21 @@ button:hover{
 .container{
     max-width: 1400px;
     margin: auto;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+}
+
+.container .text-lista{
+    width: 40%;
+    margin: auto;
+}
+
+.container .img-lista{
+    width: 60%;
+    height: 400px;
 }
 
 .color-acento{
@@ -97,7 +117,7 @@ header a:hover{
         rgb(0,0,0,.5),
         rgb(0,0,0,.5)
     ),
-    url("media/hero.jpg");
+    url("resources/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -158,7 +178,8 @@ header a:hover{
         rgb(0,0,0,.5),
         rgb(0,0,0,.5)
     ),
-    url("Media/frontend.webp");
+    url("resources/frontend.webp");
+    width: 33%;
 }
 
 .carta:nth-child(2){
@@ -167,7 +188,8 @@ header a:hover{
         rgb(0,0,0,.5),
         rgb(0,0,0,.5)
     ),
-    url("Media/fullstack.jpg");
+    url("resources/fullstack.jpg");
+    width: 33%;
 }
 
 .carta:nth-child(3){
@@ -176,7 +198,8 @@ header a:hover{
         rgb(0,0,0,.5),
         rgb(0,0,0,.5)
     ),
-    url("Media/python.jpg");
+    url("resources/python.jpg");
+    width: 33%;
 }
 
 #caracteristicas .container{
